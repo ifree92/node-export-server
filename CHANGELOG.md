@@ -1,3 +1,5 @@
+# 2.0.16 (fork)
+  * Added `bullet` chart type to optional modules list
 # 2.0.15
 
   * Added `queueSize` option to `initPool` to set the request overfow queue size 
