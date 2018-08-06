@@ -2,6 +2,8 @@
 
 Convert Highcharts.JS charts to static image files.
 
+_Extended version with added `bullet` chart module into list of optional modules._
+
 ## What & Why
 
 This is a node.js application/service that converts [Highcharts.JS](http://highcharts.com) charts to static image files.
