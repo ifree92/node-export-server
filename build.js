@@ -367,6 +367,11 @@ function useIfDefined(what, def) {
   return (typeof what === 'undefined' ? def : what);
 }
 
+process.env.ACCEPT_HIGHCHARTS_LICENSE = 1;
+process.env.HIGHCHARTS_VERSION = 'latest';
+process.env.HIGHCHARTS_USE_STYLED = true;
+process.env.HIGHCHARTS_USE_MAPS = true;
+
 if (process.env.ACCEPT_HIGHCHARTS_LICENSE) {
     embedAll(
       useIfDefined(process.env.HIGHCHARTS_VERSION, 'latest'),
